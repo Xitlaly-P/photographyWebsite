@@ -38,5 +38,36 @@ body {
   }
   @font-face {
     font-family: navFont;
-    src: url("Cheque-Regular.otf") format("opentype");
+    src: url("fonts/Cheque-Regular.otf") format("opentype");
+}
+  @font-face {
+    font-family: dancingScript;
+    src: url("fonts/DancingScript-VariableFont_wght.ttf");
+  }
+
+.even {
+  background-color: white;
+}
+.odd {
+  background-color: #D9D9D9;
+  margin:10px;
+}
+
+.box{
+  padding: 20px;
+  display: flex;
+}
+.box .content{
+  width: 70%;
+  padding-right: 10px;
+}
+#firstimg{
+  height: 200px;
+}
+.titleFormat{
+  font-family: dancingScript;
+  font-size: 35px;
+}
+.blurb{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
