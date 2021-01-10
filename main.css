@@ -81,7 +81,16 @@ body {
 }
 .imginslide{
   padding: 20px;
+  border-left:20%;
+  border-right:20%;
   box-align: center;
+  text-align: center;
+  display:inline;
+}
+
+.boxthreeslide{
+  padding: 20px;
+  text-align: center;
 }
 
 
@@ -94,7 +103,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 900px;
   position: relative;
   margin: auto;
 }
