@@ -37,6 +37,9 @@ body {
     text-decoration-color: black;
     background-color: #D9D9D9;
   }
+
+
+/*Fonts*/
   @font-face {
     font-family: navFont;
     src: url("fonts/Cheque-Regular.otf") format("opentype");
@@ -45,6 +48,8 @@ body {
     font-family: dancingScript;
     src: url("fonts/DancingScript-VariableFont_wght.ttf");
   }
+
+
 
 .even {
   background-color: white;
@@ -173,3 +178,5 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
